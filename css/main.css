@@ -115,6 +115,13 @@ textarea {
     width: 25%;
 }
 
+.brands{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 25%;
+}
+
 ul{
     list-style-type: none;
     padding: 0;
