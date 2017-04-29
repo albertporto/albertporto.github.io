@@ -149,6 +149,15 @@ body{
     width: 25%;
 }
 
+a{
+    text-decoration: none; /* no underline */
+    color: #fff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 ul{
     list-style-type: none;
     padding: 0;
