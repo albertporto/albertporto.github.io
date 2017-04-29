@@ -158,6 +158,11 @@ a:hover {
   text-decoration: underline;
 }
 
+a:visited { 
+    color: #fff;
+    text-decoration: none;
+}
+
 ul{
     list-style-type: none;
     padding: 0;
