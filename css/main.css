@@ -11,9 +11,8 @@
    ========================================================================== */
 
 html {
-    background: #000;
     color: #fff;
-    font-size: 1em;
+    font-size: .9em;
     line-height: 1.4;
 }
 
@@ -83,6 +82,33 @@ textarea {
     resize: vertical;
 }
 
+
+
+/* ==========================================================================
+   Animated Background
+   ========================================================================== */
+
+body{
+  animation: myshift 20s infinite;
+  -webkit-animation: myshift 20s infinite;
+}
+
+@keyframes myshift{
+  0% {background:#AEAEAE;} 
+  25% {background:#E64C66;}
+  50% {background:#2D3E50;}
+  75% {background:#1BBC9B;}
+  100% {background:#AEAEAE;} 
+}
+
+@-webkit-keyframes myshift{
+  0% {background:#AEAEAE;} 
+  25% {background:#E64C66;}
+  50% {background:#2D3E50;}
+  75% {background:#1BBC9B;}
+  100% {background:#AEAEAE;} 
+}
+
 /* ==========================================================================
    Browser Upgrade Prompt
    ========================================================================== */
@@ -94,6 +120,7 @@ textarea {
     padding: 0.2em 0;
 }
 
+
 /* ==========================================================================
    Type
    ========================================================================== */
@@ -104,19 +131,19 @@ textarea {
 }
 
 .content{
-    margin-left: 2%;
     margin-top: 10%;
+    margin-left: 2%;
 }
 
 .statement{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
     margin-top: 2em;
     margin-bottom: 2em;
     width: 25%;
 }
 
 .brands{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
     margin-top: 2em;
     margin-bottom: 2em;
     width: 25%;
@@ -125,7 +152,7 @@ textarea {
 ul{
     list-style-type: none;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
     margin-top: 2em;
 }
 
@@ -133,11 +160,7 @@ h1{
     text-transform: uppercase;
     font-family: 'Roboto Mono', monospace;
     letter-spacing: .1em;
-    font-size: 16px;
-}
-
-.more{
-    color:#666;
+    font-size: 1em;
 }
 
 /* ==========================================================================
