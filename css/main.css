@@ -91,20 +91,23 @@ Media Queries
     @media only screen and (min-width : 320px) {
       .content{
       width: 90%;
-     }   
+    margin-top: 20%;
+       }   
     }
 
     /* Extra Small Devices, Phones */ 
     @media only screen and (min-width : 480px) {
       .content{
       width: 90%;
-     }   
+      margin-top: 20%;
+         }   
     }
 
     /* Small Devices, Tablets */
     @media only screen and (min-width : 768px) {
             .content{
       width: 35%;
+      margin-top: 15%;
      }   
 
     }
@@ -113,6 +116,7 @@ Media Queries
     @media only screen and (min-width : 992px) {
             .content{
       width: 25%;
+      margin-top: 10%;
      }   
 
     }
@@ -121,6 +125,7 @@ Media Queries
     @media only screen and (min-width : 1200px) {
             .content{
       width: 25%;
+      margin-top: 10%;
      }   
 
     }
@@ -172,7 +177,6 @@ body{
 }
 
 .content{
-    margin-top: 10%;
     margin-left: 2%;
 }
 
