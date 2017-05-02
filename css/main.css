@@ -193,7 +193,7 @@ body{
 }
 
 a{
-    text-decoration: none; /* no underline */
+    text-decoration: underline;
     color: #fff;
 }
 
